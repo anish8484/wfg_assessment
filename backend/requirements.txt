@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-dotenv
+pytest
+httpx
+# For postgres if needed, but we'll default to sqlite for simplicity unless specified otherwise in my head.
+# The user said "Any cloud-based database", implying I should probably set up something generic or mockable.
+# SQLite is fine for the repo deliverable.
